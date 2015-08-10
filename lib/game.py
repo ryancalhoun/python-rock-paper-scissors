@@ -1,8 +1,8 @@
-from console import Console
+import console
 
-class Game:
+class Game():
    def play(self):
-      Console().display("Let's play a game!")
+      console.display("Let's play a game!")
 
 
 if __name__ == "__main__":
